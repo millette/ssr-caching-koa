@@ -1,28 +1,10 @@
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/zeit/next.js/tree/master/examples/ssr-caching)
+[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/millette/ssr-caching-koa)
 
-# Example app where it caches SSR'ed pages in the memory
+# Example app where it caches SSR'ed pages in the memory using koa.
 
-## How to use
+Used to demontrate bug [404 error when using useFileSystemPublicRoutes = false](https://github.com/zeit/next.js/issues/2682).
 
-Download the example [or clone the repo](https://github.com/zeit/next.js):
-
-```bash
-curl https://codeload.github.com/zeit/next.js/tar.gz/master | tar -xz --strip=2 next.js-master/examples/ssr-caching
-cd ssr-caching
-```
-
-Install it and run:
-
-```bash
-npm install
-npm run dev
-```
-
-Deploy it to the cloud with [now](https://zeit.co/now) ([download](https://zeit.co/download))
-
-```bash
-now
-```
+Demo: <https://ssr-caching-koa-amateehwho.now.sh/> (*temporary*)
 
 ## The idea behind the example
 
